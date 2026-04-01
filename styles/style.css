@@ -17,6 +17,14 @@
     color: #474747;
 }
 
+.dark-1 {
+    color: #181818;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
 .btn-primary {
     background-color: #FD6E0A;
     color: white;
@@ -25,16 +33,21 @@
     border: none;
 }
 
-.container {
-    margin: 50px auto;
-    width: 1140px;
+/* header  */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
 }
+
+
 
 /* nav style */
 nav {
+    margin: 50px 230px 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 
 }
@@ -61,5 +74,45 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+
+}
+
+/* banner */
+.banner {
+    margin: 50px 50px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-img {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-content {
+    width: 585px;
+}
+
+.banner-greeting {
+
+    font-weight: 600;
+    font-size: 40px;
+
+
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 80px;
+
+}
+
+.banner-description {
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
 
 }
