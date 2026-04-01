@@ -218,3 +218,60 @@ nav ul li a {
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 
 }
+
+.resume .section-heading {
+    margin-bottom: 100px;
+}
+
+.in-resume {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.education,
+.my-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.in-education,
+.in-ex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edu-heading,
+.ex-heading {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.degree,
+.position {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.year,
+.position-y {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-03);
+}
+
+.position-description,
+.edu-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: var(--dark-03);
+}
