@@ -46,6 +46,14 @@ main section {
     border: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.button-margin {
+    margin-top: 50px;
+}
+
 /* header  */
 .header {
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
@@ -275,3 +283,8 @@ nav ul li a {
     line-height: 175%;
     color: var(--dark-03);
 }
+
+/* .resume-container {
+    display: flex;
+    gap: 25px;
+} */
