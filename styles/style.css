@@ -162,7 +162,7 @@ nav ul li a {
 
     font-weight: 700;
     font-size: 35px;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -171,7 +171,7 @@ nav ul li a {
     font-weight: 400;
     font-size: 18px;
     line-height: 167%;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -288,3 +288,39 @@ nav ul li a {
     display: flex;
     gap: 25px;
 } */
+
+/* footer */
+.f-size {
+    padding: 198px 250px;
+}
+
+.footer-margin * {
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    gap: 25px;
+}
+
+footer .footer-colum {
+    width: 50%;
+}
+
+footer input[type='text'],
+footer input[type='email'],
+footer textarea {
+    width: 100%;
+    display: block;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+
+}
